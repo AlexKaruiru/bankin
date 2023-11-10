@@ -22,6 +22,7 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
 public class AuthTokenFilter extends OncePerRequestFilter {
 	@Autowired
@@ -47,7 +48,7 @@ public class AuthTokenFilter extends OncePerRequestFilter {
 
 				SecurityContextHolder.getContext().setAuthentication(authentication);
 			}
-		} catch (Exception e) {
+		} catch (UsernameNotFoundException e) {
 			logger.error("Cannot set user authentication: {}", e);
 		}
 

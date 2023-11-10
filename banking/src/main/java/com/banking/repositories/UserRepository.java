@@ -5,6 +5,7 @@
 package com.banking.repositories;
 
 import com.banking.models.User;
+
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;

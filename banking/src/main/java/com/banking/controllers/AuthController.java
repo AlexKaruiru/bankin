@@ -15,6 +15,7 @@ import com.banking.repositories.RoleRepository;
 import com.banking.repositories.UserRepository;
 import com.banking.security.jwt.JwtUtils;
 import com.banking.services.UserDetailsImpl;
+
 import jakarta.validation.Valid;
 import java.util.HashSet;
 import java.util.List;

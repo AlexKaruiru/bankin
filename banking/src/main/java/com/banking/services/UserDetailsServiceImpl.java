@@ -6,6 +6,7 @@ package com.banking.services;
 
 import com.banking.models.User;
 import com.banking.repositories.UserRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
