@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.banking.services;
+package com.banking.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.Size;
